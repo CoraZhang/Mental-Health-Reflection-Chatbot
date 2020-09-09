@@ -1,0 +1,139 @@
+
+
+/*.display-linebreak {
+    white-space: pre;
+}*/
+
+
+.messagesDisplay {
+    padding: 5% 0;
+    overflow: auto;
+    flex: auto;
+}
+
+html {
+    --scrollbarBG: #ffffff;
+    --thumbBG: #C7D0D8;
+  }
+.msgScroll::-webkit-scrollbar {
+    width: 10px;
+  }
+  body {
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+  }
+.msgScroll::-webkit-scrollbar-track {
+    background: white;
+  }
+.msgScroll::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG) ;
+    border-radius: 10px;
+    /* border: 3px solid var(--scrollbarBG); */
+  }
+
+/*.container {
+    max-width: 500 !important;
+    margin: auto;
+    margin-top: 4%;
+    font-family: sans-serif;
+    letter-spacing: 0.5px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+/* .msg-header {
+    border: 1px solid #ccc;
+    width: 100%;
+    height: 10%;
+    border-bottom: none;
+    display: inline-block;
+    background-color: #007bff;
+}
+
+.msg-header-img {
+    border-radius: 50%;
+    width: 40px;
+    margin-left: 5%;
+    margin-top: 12px;
+    float: left;
+} 
+
+.chat-container {
+    padding: 0 0 50px 0;
+}
+
+.chat-display {
+    border: 1px solid #ccc;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+
+.chats {
+    padding: 30px 15px 0 25px;
+}
+
+.msg-display {
+    height: 516px;
+    overflow-y: auto;
+}
+
+.bot-messages {
+    height: 80px;
+}
+
+.bot-messages-img {
+    display: inline-block;
+    width: 80px;
+    float: left;
+}
+
+.bot-msg {
+    display: inline-block;
+    padding: 0 0 0 10px;
+    vertical-align: middle;
+    width: 92%;
+}
+
+.bot-msg-text {
+    width: 57%;
+}
+
+.bot-msg-text p {
+    background: #efefef none repeat scroll 0 0;
+    border-radius: 10px;
+    color: #646464;
+    font-size: 20px;
+    margin: 0;
+    padding: 5px 10px 5px 12px;
+    width: 100%;
+}
+
+.user-messages {
+    overflow: hidden;
+    margin: 26px 20px;
+}
+
+.user-msg-text p {
+    background: #007bff none repeat scroll 0 0;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 0;
+    padding: 5px 10px 5px 12px;
+    width: 100%;
+}
+
+.user-msg-text {
+    float: left;
+    width: 46%;
+    margin-left: 45%;
+}
+
+.user-messages-img {
+    display: inline-block;
+    width: 80px;
+    float: right;
+}*/

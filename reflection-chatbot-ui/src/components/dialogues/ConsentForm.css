@@ -1,0 +1,43 @@
+.agreeBtn {
+    background-color: #39c6b6;
+    color: white;
+    border-color: #39c6b6;
+    border-width: 2px;
+    font-weight: bold;
+}
+
+.agreeBtn:hover {
+    background-color: white;
+    color: #39c6b6;
+    border-color: #39c6b6;
+    font-weight: bold;
+    border-width: 2px;
+}
+
+.agreeBtn:focus-within {
+    background-color: #39c6b6;
+    color: white;
+    border-color: #39c6b6;
+    border-width: 2px;
+    font-weight: bold;
+}
+
+.agreeBtn:active {
+    background-color: #39c6b6 !important;
+    color: white !important;
+    border-color: #39c6b6 !important;
+    border-width: 2px !important;
+    font-weight: bold !important;
+}
+.agreeBtn:visited {
+    background-color: #39c6b6;
+    color: white;
+    border-color: #39c6b6;
+    border-width: 2px;
+    font-weight: bold;
+}
+
+.display-linebreak-consentForm {
+    white-space: pre-wrap;
+    text-indent: 5%;
+}

@@ -1,0 +1,31 @@
+.outerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    background-color: #ffffff;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border-radius: 8px;
+    border: 2px solid;
+    border-color: #f3f3f3;
+    height: 75%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .inputContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+    width:100%;
+    background-color: #39c6b6;
+    /*background-color: white;*/
+  }

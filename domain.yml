@@ -1,0 +1,239 @@
+%YAML 1.1
+---
+actions:
+- action_explain_value
+- action_plan
+- action_repeat
+- action_report_weekly_time
+- action_set_additional_act
+- action_set_other_time
+- action_switch_activity
+- utter_ask_rephrase
+- ask_why_cont
+- check_behaviour_num
+- check_value_num
+- check_weekly_hour
+- set_act_align
+- set_act_cont
+- utter_activity_done
+- utter_agree_interesting
+- utter_ask_good_behaviour
+- utter_ask_hour_on_act
+- utter_ask_new_act
+- utter_ask_other_activity
+- utter_ask_stop
+- utter_cheer_up
+- utter_confirm_activities
+- utter_confirm_value
+- utter_did_that_help
+- utter_give_it_a_try
+- utter_goodbye
+- utter_goodluck
+- utter_greet
+- utter_happy
+- utter_how_act_improve
+- utter_how_is_aligned
+- utter_iamabot
+- utter_is_activity_aligned
+- utter_lets_plan
+- utter_next_section
+- utter_not_enough_time
+- utter_select_a_value
+- utter_state_chatbot_purpose
+- utter_that_is_it
+- utter_why_spend_time
+- utter_will_continue_act
+- utter_your_top_activities
+- utter_your_top_activities_again
+entities:
+- activity
+- number
+- value
+intents:
+- choose_value
+- deny
+- inform:
+    use_entities: []
+- behaviour_describe
+- number_input
+- describe_hour
+- affirm
+- stop_convo
+- greet
+- explain_value
+- explain_chatbot_purpose
+- sounds_cool:
+    use_entities: []
+- goodbye
+- mood_great
+- mood_unhappy
+- bot_challenge
+- sounds_boring:
+    use_entities: []
+slots:
+  act1_align:
+    type: bool
+  act1_cont:
+    type: bool
+  act1_time:
+    max_value: 168.0
+    min_value: 0.0
+    type: float
+  act2_align:
+    type: bool
+  act2_cont:
+    type: bool
+  act2_time:
+    max_value: 168.0
+    min_value: 0.0
+    type: float
+  act3_align:
+    type: bool
+  act3_cont:
+    type: bool
+  act3_time:
+    max_value: 168.0
+    min_value: 0.0
+    type: float
+  act_1:
+    type: text
+  act_2:
+    type: text
+  act_3:
+    type: text
+  act_to_replace:
+    type: text
+  acts_done:
+    type: bool
+  add_act:
+    type: text
+  curr_act:
+    type: text
+  num_act:
+    type: categorical
+    values:
+    - three
+    - more
+    - less
+    - zero
+  num_value:
+    type: categorical
+    values:
+    - zero
+    - one
+    - more
+  other_time:
+    max_value: 168.0
+    min_value: 0.0
+    type: float
+  total_time:
+    max_value: 168.0
+    min_value: 0.0
+    type: float
+  value_focus:
+    type: categorical
+    values:
+    - achievement
+    - family
+    - fun
+    - health
+    - mindfulness
+    - independence
+    - purpose
+    - self-esteem
+    - wealth
+    - friendship
+    - morality
+    - romance
+    - responsibility
+    - knowledge
+    - acceptance
+templates:
+  utter_activity_done:
+  - text: Thanks for answering these questions!
+  - text: That's it for {curr_act}.
+  utter_agree_interesting:
+  - text: Interesting, right? Why don't you try it now! Choose a value important to
+      you.
+  utter_ask_good_behaviour:
+  - text: Do you think your behaviour reflect the value {value_focus} well?
+  utter_ask_hour_on_act:
+  - text: On average, how many hours do you spend time on {curr_act} in a week?
+  utter_ask_new_act:
+  - text: Tell me an activity that is aligned with {value_focus}, and you think you
+      can commit to do regularly.
+  utter_ask_other_activity:
+  - text: Other than the three activities you mentioned earlier, do you spend time
+      on activities that are also aligned with {value_focus}? Please enter the total
+      number of hours per week you spend on them. (Enter 0 if none)
+  utter_ask_stop:
+  - text: Are you sure you want to stop session?
+  - text: Are you sure you want to stop the conversation?
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  utter_confirm_activities:
+  - text: You spend most of your time {act_1}, {act_2}, and {act_3}, is this correct?
+  utter_confirm_value:
+  - text: You would like to focus on {value_focus}, correct?
+  - text: You value {value_focus} the most, correct?
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_give_it_a_try:
+  - text: Sorry that didn't interest you :(. Why don't you give it a try, maybe you
+      will find it helpful! Choose a value important to you to start.
+  utter_goodbye:
+  - text: Bye
+  utter_goodluck:
+  - text: Glad to know that you are already spending enough time to reflect {value_focus}!
+      I hope you maintain it! :)
+  utter_greet:
+  - text: Hey! How are you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_how_act_improve:
+  - text: How will {add_act} improve your behaviour to better reflect {value_focus}?
+  utter_how_is_aligned:
+  - text: You think {curr_act} is aligned with {value_focus}, can you explain how?
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_is_activity_aligned:
+  - text: Do you think {curr_act} is aligned with {value_focus}?
+  utter_lets_plan:
+  - text: Don't worry, I will help with coming up with a plan to change how you spend
+      your time!
+  utter_next_section:
+  - text: Next I will ask you your thoughts on the activities you have chosen with
+      relation to your most important value - {value_focus}.
+  utter_not_enough_time:
+  - text: It looks like you do not spend enough time on doing things that align with
+      your most important value {value_focus}. Let's come up with a plan to change
+      how you spend your time to align with {value_focus}.
+  utter_select_a_value:
+  - text: Please select the value most important to you.
+  - text: Which of the value do you value the most?
+  utter_state_chatbot_purpose:
+  - text: My purpose is to help you reflect on whether your actions and one of your
+      important values are aligned. Try it out! Select a value important to you from
+      the above list.
+  utter_that_is_it:
+  - text: And that's it for this conversation! I hope the session helps you to reflect
+      on your actions and your most important value! Please send us any feedback to
+      reflectbot496@gmail.com. Thanks for using the reflection chatbot!
+  utter_why_spend_time:
+  - text: You belive {curr_act} does not align with {value_focus}, why do you spend
+      time on {curr_act}?
+  utter_will_continue_act:
+  - text: Do you think you should continue {curr_act}?
+  utter_your_top_activities:
+  - text: I would like to know how you spend your time - this will help you to reflect
+      later on. What are the top three activities you spent most of your time doing
+      in the past few months? Provide activities you would do in your 'free time'; 'sleeping',
+      'eating', 'working' are essential to your life thus I do not encourage you to
+      write them, unless you do do these activities in your free time. Please write your answers in present participle verbs such as 'singing' or 'jogging', instead of 'sing' or 'to jog', etc. 
+  utter_your_top_activities_again:
+  - text: What are the top three activities you spent most of your time doing in the
+      past week? (Hint - use more generic activities such as 'exercising' as suppose
+      to 'dragon boating').
+  utter_ask_rephrase:
+  - text: I didn't quite get that, can you rephrase your answer? 

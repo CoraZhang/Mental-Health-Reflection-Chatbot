@@ -1,0 +1,39 @@
+.selectCard {
+    margin:10px;
+    height: 82%;
+    text-align: center;
+    padding: 5% 0;
+    /* font-family: Arial; */
+    /* display:table; */
+    /* vertical-align: middle; */
+}
+
+.selectCard:hover .valIcon, .selectCard.hover .valIcon {
+    display: none;
+}
+
+.selectCard:hover .card-text, .selectCard.hover .card-text {
+    display: block;
+    
+}
+
+.card-text {
+    display: none;
+}
+
+.valIcon {
+    width: 20%;
+    margin-bottom: 10px;
+    /* display: none; */
+
+}
+
+/* .card-body {
+    display:table;
+    vertical-align: middle;
+} */
+
+.currentSelection {
+    background-color: #39c6b6;
+    color: white;
+}

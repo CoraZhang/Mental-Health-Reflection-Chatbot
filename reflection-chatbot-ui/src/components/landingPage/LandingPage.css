@@ -1,0 +1,107 @@
+.LPContainer {
+    width: 100%;
+    border: 0px;
+    max-width: 100vw;
+    padding: 0;
+    margin:0;
+}
+
+.LPContainer .row{
+    margin: 5% auto;
+    max-width: 70vw;
+}
+
+.LPTitleAndIntro .row{
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.LPTitleAndIntro {
+    margin:3%;
+    border-bottom: 2px solid #39c6b6;
+}
+
+.LPPageTitle {
+    color: #39c6b6;
+    font-weight: bolder;
+}
+
+.LPBotIcon {
+    width: 15%;
+}
+
+.LPSectionTitle {
+    text-align: center;
+    justify-content: center;
+}
+
+.LightSection {
+    color: #434343;
+}
+
+.LPSectionTitle img {
+    width: 50%;
+}
+
+.LPSectionContent {
+    margin: auto;
+}
+
+.LPSectionAltColour {
+    background-color: #39c6b6;
+    color: white;
+    width: 100vw;
+    /*margin: 0 !important;*/
+}
+
+.LPSectionImgRight {
+    justify-content: center;
+    text-align: center;
+}
+
+.LPSectionImgRight img {
+    width: 60%;
+}
+
+.startChatBtn {
+    margin: 5% auto;
+    background-color: white;
+    color: #39c6b6;
+    border-color: #39c6b6;
+    font-weight: bold;
+    border-width: 2px;
+    border-radius: 10px;
+    font-size: x-large;
+}
+
+.startChatBtn:hover {
+    background-color: #39c6b6;
+    color: white;
+    border-color: white;
+    border-width: 2px;
+    font-weight: bold;
+}
+
+.startChatBtn:focus-within {
+    background-color: #39c6b6;
+    color: white;
+    border-color: white;
+    border-width: 2px;
+    font-weight: bold;
+}
+
+.startChatBtn:active {
+    background-color: #39c6b6 !important;
+    color: white !important;
+    border-color: white !important;
+    border-width: 2px !important;
+    font-weight: bold !important;
+}
+.startChatBtn:visited {
+    background-color: #39c6b6;
+    color: white;
+    border-color: white;
+    border-width: 2px;
+    font-weight: bold;
+}

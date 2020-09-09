@@ -1,0 +1,518 @@
+## intent:affirm
+- yes
+- indeed
+- of course
+- that sounds good
+- yes, that is correct
+- that is correct
+- correct
+- yup
+- that't correct
+- that's right
+- that is correct
+- yea
+- that's right
+- ya
+- yes
+- yes
+- yes
+- yes
+- yes
+- yes
+- yes
+- yes
+- yes
+- yes
+- yup
+- yes
+- yes
+- ya
+- yes
+- ya
+- yes
+- yea
+- ya
+- yes
+- yea
+- yes
+- ya
+- yes
+- yes
+- yes
+- ya
+- ya
+- ya
+- yes
+- yes
+- yes
+- yes
+- yes
+- yes
+- yes
+- yes
+- yes
+- yes
+- yes
+- yes
+- yes
+- yes
+- yes
+- ya
+- yes
+- yes
+- yes
+- yes
+- yes
+- yes
+- yes
+- yes
+- yes
+- ya
+- yes
+- yes
+- yes
+- yea
+- ys
+- yes
+- yes
+- ye
+- yes
+- yes
+- yes
+
+## intent:behaviour_describe
+- [sleeping](activity), [eating](activity), [exercising](activity)
+- [playing video games](activity), [watching netflix](activity), [baking](activity)
+- [reading](activity), [studying](activity) and [playing piano](activity)
+- [playing sports](activity), [hanging out with friends](activity), and [painting](activity)
+- [sketching](activity), [cooking](activity), [working](activity)
+- [writing stories](activity), [going to the gym](activity), [jogging](activity)
+- [running](activity), [watching youtube](activity), and [shopping](activity)
+- [volunteering](activity), [taking care of my family](activity), [applying for a job](activity)
+- [sleeping](activity), [eating](activity), [working](activity), and [studying](activity)
+- [sining](activity), [sleeping](activity), [watching tv](activity)
+- [singing](activity), [painting](activity), and [exercising](activity)
+- [drinking alcohol](activity), [sleeping](activity), [playing video games](activity)
+- [exercising](activity), [painting](activity), [singing](activity)
+- killing my friends on LoL, waiting for a person, making protein shakes
+- [sleeping](activity), [fixing](activity) my lamp
+- [sleeping](activity), [eating](activity), [working](activity), [studying](activity)
+- [working](activity), [sleeping](activity), [drinking](activity)
+- [jogging](activity), [exercising](activity), [reading](activity)
+- [reading](activity), [exercising](activity), [working](activity)
+- [reading](activity), [playing computer games](activity), [jogging](activity)
+- [painting](activity), [reading](activity), [watching tv](activity)
+- [watching tv](activity), [playing video games](activity), [partying](activity)
+- [reading](activity), [singing](activity), [dancing](activity)
+- [watching netflix](activity), [studying](activity), [reading](activity)
+- [reading](activity), [cooking](activity), [painting](activity)
+- [reading](activity), [writing](activity), and [drawing](activity)
+- [watching youtube](activity), [cooking](activity), and [reading](activity)
+- [reading](activity), [playing computer games](activity), [exercising](activity)
+- [exercising with boyfriend](activity), [playing computer games](activity), [painting](activity)
+- [exercising](activity), [singing](activity), [studying](activity)
+- [swimming](activity), [exercising](activity), [singing](activity)
+- [swimming](activity), [exercising](activity), and [singing](activity)
+- [spending time with friends](activity), [cooking](activity), [studying](activity)
+- [watching videos](activity), [exercising](activity), [playing video games](activity)
+- [exercising](activity), [playing video games](activity), and [watching tv](activity)
+- [exercising](activity), [playing video game](activity) and [reading](activity)
+- [exercising](activity), [reading](activity), [painting](activity)
+- [exercising](activity), [watching tv](activity), [singing](activity)
+- [spending time with family](activity), [playing video games](activity), [exercising](activity)
+- [reading](activity), [watching tv](activity), [studying](activity)
+- [watching tv](activity), [painting](activity), [studying](activity)
+- [exercising](activity), [reading](activity) and [painting](activity)
+- [applying for jobs](activity)
+- [watching netflix](activity), [playing video games](activity), [exercising](activity)
+- [swimming](activity)
+- [running](activity), [playing the piano](activity), [watching netflix](activity)
+- [exercising](activity)
+- [running](activity), [eating](activity), [hanging out with friends](activity)
+- [writing in a journal](activity), [rock climbing](activity), [going to the theatre](activity)
+- [listening to podcasts](activity), [listening to radio](activity), [writing a blog](activity)
+- [surfing the internet](activity), [doing arts and crafts](activity), and [going to the park](activity)
+- [doing yoga](activity), [writing poems](activity), [listening to music](activity)
+- [taking care of my dogs](activity), [taking care of my fish](activity), [fixing cars](activity)
+- [drink mixing](activity), [doing karate](activity), and [horsebakc riding](activity)
+
+## intent:bot_challenge
+- are you a bot?
+- are you a human?
+- am I talking to a bot?
+- am I talking to a human?
+
+## intent:choose_value
+- [achievement](value) and [family](value)
+- [family](value) and [fun](value)
+- [fun](value) and [health](value)
+- [health](value) and [mindfulness](value)
+- [mindfulness](value) and [independence](value)
+- [independence](value) and [purpose](value)
+- [purpose](value) and [self-esteem](value)
+- [self-esteem](value) and [wealth](value)
+- [wealth](value) and [friendship](value)
+- [friendship](value) and [morality](value)
+- [morality](value) and [romance](value)
+- [romance](value) and [responsibility](value)
+- [responsibility](value) and [knowledge](value)
+- [knowledge](value) and [acceptance](value)
+- [acceptance](value) and [achievement](value)
+- [friendship](value) and [family](value)
+- [achievement](value)
+- [family](value)
+- [fun](value)
+- [health](value)
+- [mindfulness](value)
+- [independence](value)
+- [purpose](value)
+- [self-esteem](value)
+- [wealth](value)
+- [friendship](value)
+- [morality](value)
+- [romance](value)
+- [responsibility](value)
+- [knowledge](value)
+- [acceptance](value)
+- [Achievement](value:achievement)
+- [Family](value:family)
+- [Fun](value:fun)
+- [Health](value:health)
+- [Mindfulness](value:mindfulness)
+- [Independence](value:independence)
+- [Purpose](value:purpose)
+- [Self-esteem](value:self-esteem)
+- [Wealth](value:wealth)
+- [Friendship](value:friendship)
+- [Morality](value:morality)
+- [Romance](value:romance)
+- [Responsibility](value:responsibility)
+- [Knowledge](value:knowledge)
+- [Acceptance](value:acceptance)
+- [friendship](value) and [family](value)
+- [friendship](value)
+- [family](value) and [friendship](value)
+- [friendship](value)
+- [friendship](value)
+- [health](value)
+- [frienship](value) and [family](value)
+- [family](value)
+- [family](value)
+- I think [health](value) is important to me
+- [family](value) and [friendship](value)
+- [family](value)
+- [freindship](value)
+- [friendship](value)
+- [health](value) and [wealth](value)
+- [mindfulness](value)
+- [romance](value)
+- [family](value)
+- [health](value)
+- [family](value)
+- [health](value)
+- [wealth](value)
+- [health](value)
+- [health](value)
+- [health](value)
+
+## intent:deny
+- no
+- never
+- I don't think so
+- don't like that
+- no way
+- not really
+- actually, I changed my mind
+- not really
+- no
+- no
+- no
+- no
+- no
+- no
+- no
+- no
+- no
+- no
+- no
+- no
+- no
+- no
+- no
+- no
+- no
+- no
+- no
+- no
+- no
+- no
+- no
+- no
+- no
+- no
+- no
+- no
+- no
+- no
+- no
+- no
+- no
+
+## intent:describe_hour
+- about [3](number) hours per week
+- about [2](number) hours
+- [1.5](number) hours
+- [-16](number) hours
+- about [7](number) hours
+- [2](number) hours
+- about [2](number) hours
+- [200](number) hours
+- about [16](number) hours
+- about [5](number) hours
+- about [6](number) hours
+- i think it's about [15](number) hours
+- [5](number) hours
+- [6](number) hours
+- about [10](number) hours
+- about  [3](number) hours
+- [3](number) hours
+- [3](number) hours
+- about [5](number) hours per week
+- [10](number) hours
+- [8](number) hours
+- [8](number) hours
+- about [12](number) hours
+- about [10](number) hours per week
+- [20](number) hours
+- more than [10](number) hours
+- about [10](number) hours
+- [20](number) hours
+- [20.5](number) hours
+- about [10](number) hours
+- about [5](number) hours
+- about [2](number) hours
+- [8](number) hours a week
+- about [5](number) hours
+- [5](number) hours
+- [2](number) hours
+- [10](number) hours
+- [16](number) hours
+- [10](number) hours
+- [3](number) hours
+- [10](number) hours
+- [10](number) hours
+- [10](number) hours
+- [2](number) hours
+- [8](number) hours
+- [20](number) hours
+- [3](number) hours
+- [2](number) hours
+- [8](number) hours
+- [5](number) hours
+- [8](number) hours
+- [5](number) hours
+
+## intent:explain_chatbot_purpose
+- what can you help me do?
+- what's your purpose?
+- what do you do?
+- what are you created for?
+- why are you created?
+- what does the reflection chatbot do?
+- what do you do?
+- hey, what do you do?
+
+## intent:explain_value
+- can you explain the meaning of the values?
+- can you explain what [achievement](value) means?
+- please explain [family](value) for me
+- could you elaborate on [fun](value)
+- I don't understand the meaning of [health](value), do you have an explanation?
+- what is [mindfulness](value)?
+- what's [independence](value)?
+- what do you mean by [purpose](value)?
+- can you explain [self-esteem](value)?
+- what's the core idea of [wealth](value)?
+- explain [friendship](value)?
+- explain [morality](value)
+- explain [romance](value)
+- explain [responsibility](value)
+- explain [knowledge](value)
+- explain [acceptance](value)
+- can you explain the values?
+- can you explain [fun](value) and [achievement](value)?
+- can you also explain [family](value)?
+- define [acceptance](value)
+- explain [family](value), [friendship](value), [wealth](value) and [health](value)
+- explain [acceptance](value), [family](value), [fun](value), [morality](value), and [knowledge](value)
+- I don't understand [health](value)
+- could you tell me what [fun](value) is
+- can you explaing [family](value) and [health](value)
+
+## intent:goodbye
+- bye
+- goodbye
+- see you around
+- see you later
+
+## intent:greet
+- hey
+- hello
+- hi
+- good morning
+- good evening
+- hey there
+
+## intent:inform
+- because I enjoy reading
+- because I like it
+- I think it helps me imporve my artistic skills
+- because it helps me relax
+- reading clears my mind, it helps me be more aware of my life
+- because it provides entertainment for me
+- i enjoy reading
+- Because we got to imporve our relationship, while maintaining a good fitness level
+- exercising makes my body strong, less sickness
+- it helps me build [endurance](value) and cardio
+- because it is good for my [health](value)
+- because [health](value) is also important to me and [swimming](activity) helps improving my health
+- because I want to maintain a good relationship with them
+- because [friendship](value) is also important to me
+- because I can make healthy food for myself
+- because it takes so much of my time
+- because I have to
+- because I am still in school
+- because it is [fun](value)
+- it increase my stamina and [strength](value)
+- because it is addicting
+- exercising helps me focus, it also pumps blood into my brain. activating it
+- because I am addicted to it
+- to be entertained and get recent news
+- because without it, I wouldn't learn about the news
+- because I exercise with my partner
+- because I enjoy [playing video games](activity)
+- because reading is a nice activity to do
+- because it is a good habit
+- because it makes me stronger and healtier
+- because it is important to my [health](value)
+- because it is [fun](value)
+- because I paint with my family
+- because it helps me build stamina and [endurance](value)
+- to watch the news and get information about the current issues
+- because watching the news is important
+- because it is a [fun](value) [activity](value)
+- because i enjoy singing
+- it helps with imporving our relationship
+- because it is [fun](value)
+- because it need to get stronger
+- because it imporves my [health](value)
+- because it is a good [activity](value)
+- to watch news
+- because i want to know the current news
+- because i am in school and i need to get good grades
+- because it helps me to get a good job in the future
+- because I want to get stronger
+- because I also value [health](value)
+- because it is a nice activity to do
+- because i want to get better at painting
+- because it calms my mind
+- because I will need a job first to start earning money
+- because there are good films to watch
+- because i paid for the membership
+- because it's [fun](value)
+- it builds my strength
+- it helps me to build cardio
+- it builds stamina and cardio
+- because i enjoy playing the piano
+- because playing the piano makes me feel calm
+- because it is [fun](value)
+- i think it will help me build my strength
+- it builds cardio
+- it helps me get the nutrients
+- because i enjoy spending time with them
+- because they are important to me and I want to maintain our relationship
+- I should stop eating junk food to get more fit.
+- I don’t want to continue playing piano since it takes too much of my time.
+- I’m getting tired of it.
+- To keep in shape
+- Idk, I’m tired all the time.
+- I just like painting.
+- I hate jogging
+- I go rock climbing with friends
+- It’s too expensive
+- I won’t be in school anymore
+- It’s too unhealthy
+- I just don’t like it.
+- I need to quit taking drugs.
+
+## intent:mood_great
+- perfect
+- very good
+- great
+- amazing
+- wonderful
+- I am feeling very good
+- I am great
+- I'm good
+
+## intent:mood_unhappy
+- sad
+- very sad
+- unhappy
+- bad
+- very bad
+- awful
+- terrible
+- not very good
+- extremely sad
+- so sad
+
+## intent:number_input
+- [0](number)
+- [1](number)
+- [2](number)
+- [3](number)
+- [4](number)
+- [5](number)
+- [6](number)
+- [7](number)
+- [8](number)
+- [9](number)
+- [10](number)
+- [11](number)
+- [-1](number)
+- [20](number)
+- about [5](number)
+- [160](number)
+- about [5](number) huors
+- [0](number)
+- [0](number)
+- [3](number)
+- [0](number)
+- [10](number) huors
+- [2](number)
+- [0](number)
+- [0](number)
+
+## intent:sounds_boring
+- sounds lame
+- sounds boring
+- boring
+
+## intent:sounds_cool
+- that sounds cool!
+- sounds interesting!
+- cool
+- interesting
+- that sounds fun
+
+## intent:stop_convo
+- I want to stop the conversation
+- I want to leave
+- can I stop the conversation?
+- stop
+- i don't want to continue anymore
+- i want to stop
+- i want to stop
+- i want to stop
+- stop

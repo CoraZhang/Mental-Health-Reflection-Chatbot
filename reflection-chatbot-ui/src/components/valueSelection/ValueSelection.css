@@ -1,0 +1,48 @@
+.cardDisplay {
+    display: grid; 
+    grid-template-columns: repeat(5, 1fr); 
+    /* gap: auto; 
+    grid-auto-rows: auto; */
+    width: 90%;
+    margin: auto;
+    height: 70vh;
+}
+
+.intro {
+    width:90%;
+    margin:auto;
+    height:10vh;
+    padding-top:20px;
+    color: #353535;
+    font-size: x-large;
+}
+
+.valSubmitBtn {
+    width: 20%;
+    height: 8vh;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 30px 30px 30px 30px;
+    background-color: #39c6b6;
+    font-weight: bold;
+    font-size: xx-large;
+    color: white;
+    border: 2px solid #8FDFD6;
+}
+
+.valSubmitBtn:disabled {
+    background-color: grey;
+    font-weight: bold;
+    font-size: xx-large;
+    color: white;
+    border: 2px solid grey;
+    pointer-events: none;
+}
+
+.valSubmitBtn:hover {
+    background-color: white;
+    font-weight: bold;
+    font-size: xx-large;
+    color: #39c6b6;
+    border: 2px solid #8FDFD6;
+}
