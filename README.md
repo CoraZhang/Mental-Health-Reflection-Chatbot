@@ -1,4 +1,4 @@
-This project is to create a chatbot where it "chats" with the user through text to guide the user to reflect on their behaviour, particularly whether their actions match the values listed here on page 99 they think are important to them.
+This group project is to create a chatbot where it "chats" with the user through text to guide the user to reflect on their behaviour, particularly whether their actions match the values listed here on page 99 they think are important to them.
 
 This chatbot is using the framework rasa. Rasa home page. This github project.
 
