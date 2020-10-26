@@ -2,7 +2,9 @@ This project is to create a chatbot where it "chats" with the user through text 
 
 This chatbot is using the framework rasa. Rasa home page. This github project.
 
-To run the django server (while in .../frontend/ReflectChatbot) This lets you run the rest calls: python manage.py runserver NOT NEEDED ANYMORE
+* App deployed at : https://www.dropbox.com/s/726ct52k3qwj70q/ECE496_ReflectChatbot_Team038%20copy.mp4?dl=0
+
+* To run the django server (while in .../frontend/ReflectChatbot) This lets you run the rest calls: python manage.py runserver NOT NEEDED ANYMORE
 
 From the reflection-chatbot-ui folder, this starts the react server. You can view the site by typing in http://localhost:3000/ into your browser: npm start
 
